@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a=parseInt(prompt("Nhập vào tổng thu nhập của bạn:",''));
+    if (a=5000.000) {
+        alert("tổng số tiền bạn phải nộp thuế là:"+a*5/100 );
+       if (a<=10000.000){
+           alert("tổng số tiền bạn phải nộp thuế là:"+a*10/100);
+            if(a<18000.000){
+              alert("tổng số tiền bạn phải nộp thuế là:"+a*15/100);
+               if(a<32000.000){
+               alert("tổng số tiền bạn phải nộp thuế là:"+a*20/100);
+                  if(a<52000.000){
+                alert("tổng số tiền bạn phải nộp thuế là:"+a*25/100);
+                    if (a<80000.000){
+                   alert("tổng số tiền bạn phải nộp thuế là:"+a*30/100);
+                     if (a>= 80000.000){
+                     alert("tổng số tiền bạn phải nộp thuế là:"+a*35/100);
+                     }
+                    }
+                  }
+
+               }
+
+            }
+       }
+    }
+</script>
+</body>
+</html>

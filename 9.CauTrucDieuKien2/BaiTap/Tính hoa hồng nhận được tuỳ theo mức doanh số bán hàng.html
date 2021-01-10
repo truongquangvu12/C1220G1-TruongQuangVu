@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+   <script>
+       let a=parseFloat(prompt("Số lượng hàng bán được của công ty bạn :",''));
+       let b=parseFloat(prompt("Đơn giá mặt hàng của công ty bạn :"));
+       if (a>500) {
+           alert("Tiền hoa hồng bạn nhận được là: " + a * b *(10/100));
+       } else if(a>100){
+           alert("Hoa hồng của bạn là: " + a * b *(5/100));
+       } else {
+           alert("Hoa hồng của bạn là:"+ a * b *(3/100));
+       }
+   </script>
+</body>
+</html>
