@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+        let arrays= [1,13,14,45,34];
+        let max =arrays[0];
+        let index =0;
+        for (let i= 1; i< arrays.length ; i++) {
+            if( arrays[i]> max) {
+                max = arrays[i];
+                index = i;
+            }
+
+        }alert("max :" +max)
+        let sum = 0;
+        for (let i= 1; i< arrays.length ; i++) {
+        sum += arrays[i]
+        }
+        alert( "sum:" +sum )
+</script>
+</body>
+</html>

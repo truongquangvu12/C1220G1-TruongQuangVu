@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = new Array(3);
+    for (let i =0; i<array.length; i++){
+        array[i]= new Array(3);
+    }
+    for (let i =0; i<array.length; i++){
+        for (let j =0; j< array[i].length; j++){
+            array[i][j] = parseInt(prompt(" nhập vào phần tử thứ " + i +","+ j));
+        }
+    }
+</script>
+</body>
+</html>
